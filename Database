@@ -1,0 +1,62 @@
+CREATE TABLE Churches_In_Wolverhampton(name_of_church VARCHAR(50) NOT NULL,address VARCHAR(100) NOT NULL,Church_Description VARCHAR(600) NOT NULL,phone_number INT NOT NULL,PRIMARY KEY(name_of_church));
+describe Churches_In_Wolverhampton;
+insert into Churches_In_Wolverhampton value ("The King's Church", "Park Crescent West Park Wolverhampton West Midlands WV1 4PY", "The Kings Church is a lively, friendly, charismatic church which seeks to be a family, loving and encouraging each other with the love Jesus has poured out on us. Our mission statement is from Isaiah 62:3, We will be a crown of splendour in the Lord hand, a royal diadem in the hand of our God. Our aim is to combine free worship with good Biblical Teaching and allow the Holy Spirit complete freedom to move as He wishes. We have links with the wider church in the city with bimonthly prayer concerts and in the nation as a member of the Ground Level Network of churches", "01902564726")
+
+insert into Churches_In_Wolverhampton value ("LifeSpring Church (Charismatic)", "LifeSpring Centre 34 Clifton Street Wolverhampton West Midlands WV3 0QT", "LifeSpring Church is a vibrant and growing community of believers in the city of Wolverhampton. We want everyone to experience the amazing love of our heavenly Father, the grace of Jesus and the friendship of the Holy Spirit. LifeSpring Church attracts people of all ages and backgrounds. Our meetings express the love of God and the life of Christ. Through a growing number of activities and ministries the church is extending the good news of Jesus Christ to the people of Wolverhampton and beyond.", "01902313121")
+
+insert into Churches_In_Wolverhampton value ("St Philip's Church(Anglican)","Church CentreChurch RoadBradmoreWolverhamptonWest MidlandsWV3 7EJ","Two main priorities at St Philip's Church; becoming like Jesus, bringing good news. We aspire to become like our Saviour, so that we can bring good news into our community. Two different worship styles are offered, enabling people to connect with God in meaningful ways. 9.00 am has a quieter, more contemplative approach, using Anglican liturgy, hymns and organ. At 10.30 am, it is church for all ages, contemporary style using modern songs, video clips and projected images.A desire to be a church which holds to biblical values","01902341943");
+
+insert into Churches_In_Wolverhampton value ("Penn Christian Centre","Penn Christian Centre279-281 Warstones RoadPennWolverhamptonWest MidlandsWV4 4LA","PCC is an independent evangelical church. We're friendly, family orientated and informal, and do our very best to welcome everybody into the fellowship. We base our beliefs solely upon the Scriptures and seek to teach and practise the ways of Christ. We'd warmly welcome you to join us if you simply want to examine issues about God, or simply wish to worship with other like-minded Christians. We aim to serve the communities of Penn and Wolverhampton, to grow together in our relationship with Jesus, and to bring glory to Him","07804218943");
+
+ALTER TABLE Churches_Inin_Wolverhampton Modify Phone_number ;
+
+HAS ISSUES
+insert into Churches_In_Wolverhampton value ("Lakeside Community Church Perton(Evangelical)","The Perton Centre (Community Centre)Church RoadOff Coleridge DrivePertonWest MidlandsWV6 7PDA","Enjoying a beautiful lakeside location with large free car park and automatic door access, Lakeside Community Church Perton meets close to Perton's modern shopping complex. We provide a supportive ministry for workplace, home or leisure time through life-related services, enabling you to make best choices and develop your Christian potential. Bible focus groups apply biblical principles to daily life.We have a family friendly service whenever there is a fifth Sunday in the month followed by bring and share lunch together.","01902753595");
+
+
+insert into Churches_In_Wolverhampton value ("Trinity Methodist Church(Methodist)","Trinity Methodist ChurchHistons HillCodsallWolverhamptonWest MidlandsWV8 2ERJ","We seek to be a grace-driven community known for loving God and others by our engagement with our neighbourhood and the world; our pursuit of the lost, our passion for the poor, uWe are an active church at the heart of the Codsall/Bilbrook communities, serving Codsall and the surrounding areas of Perton and Tettenhall.","07766106615");
+
+insert into Churches_In_Wolverhampton value ("Grace Community Church, Tipton (Evangelical)","TrGrace Community ChurchNewhall StreetPrinces EndTiptonWest MidlandsDY4 9HL","We're a church of Christians living for Jesus today in Tipton and the Black Country.","01215020618")
+
+insert into Churches_In_Wolverhampton value ("Bridge Church Gornal (Evangelical)","St Andrews Church HallThe StraitsLower GornalDudleyWest MidlandsDY3 3AB","Bridge Church Gornal (formerly called Straits Community Church) is a church with a mission to serve Straits community and Gornal with the good news of Jesus Christ. We bring a message of hope and compassion to young people, families and the older generations. Why not get in touch?.","01215020618");
+
+insert into Churches_In_Wolverhampton value ("RCCG Jubilee Christian Centre(Pentecostal)","129 Gough Street
+Horseley Fields
+Wolverhampton
+West Midlands
+WV1 3DD","No Description.","01902256464");
+
+CREATE TABLE `freshstart`.`bars_in_wolverhampton` (
+  `Name` VARCHAR(60) NOT NULL,
+  `Address` VARCHAR(200) NOT NULL,
+  `Telephone_Number` INT(11) NOT NULL,
+  `Resaervation_or_Orders` VARCHAR(200) NOT NULL,
+  PRIMARY KEY (`Name`));
+
+INSERT INTO `freshstart`.`Bars_In_Wolverhampton` (`Name`, `Address`, `Telephone_Number`, `Resaervation_or_Orders`) VALUES ('The Angel Inn', 'The Angel Inn, 400 Bilston Rd, Ettingshall, Wolverhampton WV2 2PD', '07342376101', 'just-eat.co.uk, deliveroo.co.uk, ubereats.com');
+INSERT INTO `freshstart`.`Bars_In_Wolverhampton` (`Name`, `Address`, `Telephone_Number`, `Resaervation_or_Orders`) VALUES ('Merry Boys Inn', 'Moseley Village, Wolverhampton WV1 2JA', '01902457991', 'sizzlingpubs.co.uk');
+INSERT INTO `freshstart`.`Bars_In_Wolverhampton` (`Name`, `Address`, `Telephone_Number`, `Resaervation_or_Orders`) VALUES ('Cleveland Arms', 'Stowheath Ln, Moseley Village, Wolverhampton, Willenhall WV1 2QN', '01902451021', 'sizzlingpubs.co.uk');
+INSERT INTO `freshstart`.`Bars_In_Wolverhampton` (`Name`, `Address`, `Telephone_Number`, `Resaervation_or_Orders`) VALUES ('The Grapes Bar and Grill', '34 Queen Square, Wolverhampton WV1 1TL', '01902470504', 'Order:Just-eat.co.uk');
+INSERT INTO `freshstart`.`Bars_In_Wolverhampton` (`Name`, `Address`, `Telephone_Number`, `Resaervation_or_Orders`) VALUES ('Slug & Lettuce', 'Moseley Rd, Bilston WV14 6JG', '01902714601', 'Menu: slugandlettuce.co.uk');
+
+
+INSERT INTO `freshstart`.`Bars_In_Wolverhampton` (`Name`, `Address`, `Telephone_Number`, `Resaervation_or_Orders`) VALUES ('The Angel Inn', 'The Angel Inn, 400 Bilston Rd, Ettingshall, Wolverhampton WV2 2PD', '07342376101', 'just-eat.co.uk, deliveroo.co.uk, ubereats.com');
+INSERT INTO `freshstart`.`Bars_In_Wolverhampton` (`Name`, `Address`, `Telephone_Number`, `Resaervation_or_Orders`) VALUES ('Merry Boys Inn', 'Moseley Village, Wolverhampton WV1 2JA', '01902457991', 'sizzlingpubs.co.uk');
+INSERT INTO `freshstart`.`Bars_In_Wolverhampton` (`Name`, `Address`, `Telephone_Number`, `Resaervation_or_Orders`) VALUES ('Cleveland Arms', 'Stowheath Ln, Moseley Village, Wolverhampton, Willenhall WV1 2QN', '01902451021', 'sizzlingpubs.co.uk');
+INSERT INTO `freshstart`.`Bars_In_Wolverhampton` (`Name`, `Address`, `Telephone_Number`, `Resaervation_or_Orders`) VALUES ('The Grapes Bar and Grill', '34 Queen Square, Wolverhampton WV1 1TL', '01902470504', 'Order:Just-eat.co.uk');
+INSERT INTO `freshstart`.`Bars_In_Wolverhampton` (`Name`, `Address`, `Telephone_Number`, `Resaervation_or_Orders`) VALUES ('Slug & Lettuce', 'Moseley Rd, Bilston WV14 6JG', '01902714601', 'Menu: slugandlettuce.co.uk');
+INSERT INTO `freshstart`.`Bars_In_Wolverhampton` (`Name`, `Address`, `Telephone_Number`, `Resaervation_or_Orders`) VALUES ('The Royal London', '4-6 Wulfruna St, Wolverhampton WV1 1LX', '01902795761', 'Menu: greatukpubs.co.uk');
+INSERT INTO `freshstart`.`Bars_In_Wolverhampton` (`Name`, `Address`, `Telephone_Number`, `Resaervation_or_Orders`) VALUES ('Sunbeam', '10 Victoria St, Wolverhampton WV1 1LD', '01902 421208', 'Menu: hungryhorse.co.uk');
+INSERT INTO `freshstart`.`Bars_In_Wolverhampton` (`Name`, `Address`, `Telephone_Number`, `Resaervation_or_Orders`) VALUES ('The George Wallis', '11-15 Victoria St, Mander Centre, Wolverhampton WV1 3NP', '01902 426892', 'Menu: greatukpubs.co.uk');
+INSERT INTO `freshstart`.`Bars_In_Wolverhampton` (`Name`, `Address`, `Telephone_Number`, `Resaervation_or_Orders`) VALUES ('The Glassy Junction', '131 Willenhall Rd, Wolverhampton WV1 2HR', '01902454040', 'Order: deliveroo.co.uk, just-eat.co.uk, ubereats.com');
+INSERT INTO `freshstart`.`Bars_In_Wolverhampton` (`Name`, `Address`, `Telephone_Number`, `Resaervation_or_Orders`) VALUES ('The Lych Gate Tavern', '44 Queen Square, Wolverhampton WV1 1TX', '01902399516', 'Menu: lychgatetavern.co.uk');
+INSERT INTO `freshstart`.`Bars_In_Wolverhampton` (`Name`, `Address`, `Telephone_Number`, `Resaervation_or_Orders`) VALUES ('Prince Albert Wolverhampton', 'Railway St, Wolverhampton WV1 1LG', '01902936840', 'Service options: Dine-in • Takeaway • No delivery');
+INSERT INTO `freshstart`.`Bars_In_Wolverhampton` (`Name`, `Address`, `Telephone_Number`, `Resaervation_or_Orders`) VALUES ('Goose Wolverhampton', 'Address: 32-36 Lichfield St, Wolverhampton WV1 1DN', '01902717843', 'greatukpubs.co.uk');
+INSERT INTO `freshstart`.`Bars_In_Wolverhampton` (`Name`, `Address`, `Telephone_Number`, `Resaervation_or_Orders`) VALUES ('The Giffard Arms', '64 Victoria St, Mander Centre, Wolverhampton WV1 3NX', '01902426664', 'N/A');
+INSERT INTO `freshstart`.`Bars_In_Wolverhampton` (`Name`, `Address`, `Telephone_Number`, `Resaervation_or_Orders`) VALUES ('Wheatsheaf', 'Market St, Wolverhampton WV1 3AE', ' 01902593153', 'N/A');
+INSERT INTO `freshstart`.`Bars_In_Wolverhampton` (`Name`, `Address`, `Telephone_Number`, `Resaervation_or_Orders`) VALUES ('The Parisian', '41 Queen Square, Wolverhampton WV1 1TX', '01902712775', 'Service options: Dine-in • No takeaway • No delivery');
+INSERT INTO `freshstart`.`Bars_In_Wolverhampton` (`Name`, `Address`, `Telephone_Number`, `Resaervation_or_Orders`) VALUES ('The Great Western', ' Corn Hill, Wolverhampton WV10 0DG', '01902351090', 'N/A');
+INSERT INTO `freshstart`.`Bars_In_Wolverhampton` (`Name`, `Address`, `Telephone_Number`, `Resaervation_or_Orders`) VALUES ('The Star Inn', '38 Graiseley Ln, Wednesfield, Wolverhampton WV11 1PE', ' 01902862980', 'N/A');
+INSERT INTO `freshstart`.`Bars_In_Wolverhampton` (`Name`, `Address`, `Telephone_Number`, `Resaervation_or_Orders`) VALUES ('The Royal Oak Chapel Ash', 'The Royal Oak, 70 Compton Rd, Wolverhampton WV3 9PH', '01902422845', 'Menu: theoakchapelash.com');
+INSERT INTO `freshstart`.`Bars_In_Wolverhampton` (`Name`, `Address`, `Telephone_Number`, `Resaervation_or_Orders`) VALUES ('The Emerald Social Care', 'Cross St N, Wolverhampton WV1 1PP', '01902351419', 'N/A');
+INSERT INTO `freshstart`.`Bars_In_Wolverhampton` (`Name`, `Address`, `Telephone_Number`, `Resaervation_or_Orders`) VALUES ('The Builders Arms', '36 Derry St, Wolverhampton WV2 1EY', ' 01902352027', 'Order: ubereats.com, just-eat.co.uk');
